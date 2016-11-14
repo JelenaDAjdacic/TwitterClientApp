@@ -3,8 +3,8 @@ package com.freelancewatermelon.twitterclientapp.commons;
 
 
 public class AppConfig {
-    public static final String TWITTER_KEY = "jJC29MJuuCfJKFVrvn0sxegxs";
-    public static final String TWITTER_SECRET = "PpCm9xQvvv00xCn3kvTmKz6KoHtYU01RohhYPFy8XW1TlbF6l0";
+    public static final String TWITTER_KEY = "1HyUHHQvgE89zShRdDBy4Idox";
+    public static final String TWITTER_SECRET = "qWdTuwg9mdS6F9lvJcVZ8Fkdn6A8aiLxePXgBnQLyvKQXelrDd";
 
     /**
      * The default socket timeout in milliseconds

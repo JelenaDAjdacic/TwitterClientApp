@@ -35,7 +35,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:textColor="@color/control_two"
                     android:textStyle="bold" />
 
                 <TextView
@@ -51,11 +50,11 @@
             <TextView
                 android:id="@+id/updateText"
                 android:layout_width="wrap_content"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:autoLink="all"
                 android:textColor="@android:color/black"
-                android:textColorLink="@color/control_one" />
+                 />
 
         </LinearLayout>
 
