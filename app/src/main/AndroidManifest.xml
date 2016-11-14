@@ -8,13 +8,18 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginWithTwitterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity android:name=".TwitterTimelineActivity" />
+        <service android:name=".TimelineService" />
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="fad0aaac4e6607948304d5c65123e52256c2fc3a" />
+    </application>
 </manifest>
