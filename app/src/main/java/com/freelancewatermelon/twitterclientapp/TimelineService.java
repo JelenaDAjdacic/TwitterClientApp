@@ -15,7 +15,26 @@ import com.twitter.sdk.android.core.services.StatusesService;
 import java.io.IOException;
 import java.util.List;
 
+
 public class TimelineService extends Service {
+    /**
+     * delay between fetching new tweets
+     */
+    private static int mins = 1;//alter to suit
+    private static final long FETCH_DELAY = mins * (60 * 1000);
+    //debugging tag
+    private String LOG_TAG = "TimelineService";
+
+    /**
+     * updater thread object
+     */
+    private TimelineUpdater mTimelineUpdater;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
+
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
